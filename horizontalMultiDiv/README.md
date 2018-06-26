@@ -1,4 +1,4 @@
-# horizontalMutiDiv
+# horizontalMultiDiv
 
 ## 关于
 目前采用三种方式实现多个div横向排列，分别是：
@@ -24,6 +24,6 @@ demo适合场景：
 ### 3、display: flex；
 如果不考虑IE的兼容性，flex是非常好的选择，只需父元素设置一下布局方式就可以，并且可以完美的兼容手机端，推荐。
 ## 效果
-![](https://github.com/mandyJiai/rendering/blob/master/horizontalMutiDiv.png)
+![](https://github.com/mandyJiai/rendering/blob/master/horizontalMultiDiv.png)
 ## 感谢
-如果有更好的方法欢迎留言指教，感激不尽！如果您感觉 `horizontalMutiDiv` 帮助到了您，可以点右上角 "Star" 支持一下 谢谢！:blush:
+如果有更好的方法欢迎留言指教，感激不尽！如果您感觉 `horizontalMultiDiv` 帮助到了您，可以点右上角 "Star" 支持一下 谢谢！:blush:
