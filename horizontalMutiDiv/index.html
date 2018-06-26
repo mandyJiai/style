@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- 1、display: inline-block;  -->
+    <link rel="stylesheet" type="text/css" href="display.css" />
+
+    <!-- 2、float: left;  -->
+    <!-- <link rel="stylesheet" type="text/css" href="float.css" /> -->
+
+    <!-- 3、display: flex; 如果不考虑ie，首选flex-->
+    <!-- <link rel="stylesheet" type="text/css" href="flex.css" /> -->
+
+    <title>实现多个div横向排列</title>
+    <style type="text/css">
+        *{
+            margin: 0 0;
+            padding: 0 0;
+        }
+        html{
+            background: #0a192d;
+            color: #1cb5bf;
+        }
+        .container{
+            padding: 20px;
+        }
+        .name{
+            text-align: center;
+            margin: 20px;
+        }
+        .list{
+            width: 100%;
+        }
+        .item{
+            background: #1f4479;
+            border-radius: 10px;
+            padding: 10px;
+            /* 每个item设置左右间距，可以计算宽度，达到自适应宽度的效果*/
+            margin: 0px 10px; 
+        }
+        .nextDiv{
+            background: #1f4479;
+            border-radius: 10px;
+            margin: 10px; 
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="name">实现多个div横向排列</h1>
+        <div class="list">
+            <div class="item">浮石烟村的荷塘是美丽的。在我的印象中，那还是在我读小学二年级的时侯，记得浮石烟村的荷塘，沿岸都是些菜园，一年四季都散发着浓郁的泥土草被的芬芳，处处是那满搭着一些高低不一的树枝架棚，有的像集木，有的像草房。傍边，还划有很多方方块块的肥沃的菜园地，茂盛地生长着一些果蔬植物。如辣椒、茄子、向日葵之类的农作物，我经常带着小妹妹，采着松软的小路，在那荷塘边，尽情地玩耍，那时，童年的心情是非常愉快的。夏天来了，缤纷的植被，游弋的蜻蜓，欢快的小鸟，歌唱的知了，正如同路边的杨柳一样随风飘荡。那个时候，荷塘里的荷茎已经开始慢慢地露出了嫩嫩的尖尖角，经和风轻轻一吹，缓缓地伸展，一天一个大变样，不几天，荷叶就开始申展开来。那荷塘的荷叶，就好像赶集时下雨人们打着的伞，你挨着我，我缀着你，既优雅高贵，又风姿绰约，中间里还点缀着粉红色的花，团团簇簇，袅娜的开，萦萦饶绕，若影若现。</div>
+            <div class="item">此时，荷塘边沿岸的冬瓜、南瓜、丝瓜类的幼苗，也开始慢慢地、一步一步地往上爬，渐渐地爬上了早就给它准备好的架棚。辣椒、茄子、向日葵也开始发芽、伸叶、含苞待放了。这些农作物，在阳光雨露里和在当地农民的精心浇灌下，都伸出了嫩嫩的尖尖的头，郁郁葱葱，兴兴向荣；它们又就好像小孩子在做体育比赛，个个不甘示弱，争先恐后，你追我赶地往上涨，往上伸，看谁先爬上架棚，看谁先开花，看谁先结果。</div>
+            <div class="item">不久后，荷塘边的农作物都相继地开了花，结了果，这些现象，给荷塘边又增添了不少迷人的景色。尤其是那些冬瓜、南瓜、丝瓜之类的农作物，倒挂在荷塘边的架棚下，垂落在荷塘里的水面上，倒映在荷塘中的云雾中，在那和风轻轻地吹拂下，在那阳光暖暖地照射中，它们一天一天地成长，一天一天地长大，又一天一天的泛青，又一天一天的泛黄，还一天一天地泛红；它们好像非常地快乐，非常地高兴，自我陶醉，自我欣赏，前后摇晃，就好像是在舞蹈，也好像是在歌唱。听大人们说，浮石烟村的荷塘里，不仅有蜻蛙，有鲫鱼，还有千年乌龟；浮石烟村的荷塘边，不仅有蜻蜓、有百灵，还有一群天鹅。而且，还有一个传说：说是谁看见了荷塘里的千年乌龟，他一就会长命百岁，谁吃了荷塘边的天鹅肉，他就也会长生不老。</div>
+        </div>
+        <div class="nextDiv">荷塘里不仅有绿色肥大的荷叶和粉红色的荷花，也还看到了往日的蜻蛙、鲫鱼，更有成群结队的多种颜色的金鱼在那里自由自在地悠闲游荡；荷塘边不仅有蝴蝶，有鸳鸯、也还有黄鹂、百灵鸟在那里嬉戏玩耍高声地歌唱，只可惜没能看见千年龟，也见不到天鹅！</div>
+    </div>
+</body>
+</html>

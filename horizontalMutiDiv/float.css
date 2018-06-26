@@ -1,0 +1,18 @@
+.list{
+    zoom: 1; 
+}
+.item{
+    /* 40px是左右margin和padding之和*/
+    width: calc(100% / 3 - 40px); 
+    /* 使用float会影响nextDiv效果，所以要清除浮动*/
+    float: left;
+}
+/* 清除浮动有三种方法，这里先写个伪元素法，如有小伙伴感兴趣后面再加 */
+.list:after{
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    visibility:hidden;
+    clear:both;
+}

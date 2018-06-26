@@ -1,0 +1,5 @@
+.list{
+    /* 父元素设置flex*/
+    display: flex;
+    justify-content: space-between;
+}

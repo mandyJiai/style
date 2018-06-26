@@ -1,0 +1,13 @@
+.list{
+    /* 清除inline-block的间隙 */
+    font-size: 0px;  
+}
+.item{
+    /* 40px是左右margin和padding之和*/
+    width: calc(100% / 3 - 40px); 
+    /* 因为父元素设置字体大小为0，所以在子元素里恢复字体大小 */
+    font-size: 16px; 
+    display: inline-block;
+    /* display: inline-block;默认底部对齐 */
+    vertical-align: top; 
+}
